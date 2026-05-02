@@ -7,24 +7,21 @@ media_folder: "assets/images"
 public_folder: "/assets/images"
 
 collections:
-  - name: "homepage"
-    label: "Homepage"
+  - name: homepage
+    label: Homepage
     files:
-      - file: "content/homepage.json"
-        label: "Hero Section"
-        name: "hero"
+      - label: Hero Section
+        name: hero
+        file: content/homepage.json
         fields:
-          - label: "Hero Title"
-            name: "hero_title"
-            widget: "string"
-            required: false
+          - label: Hero Title
+            name: hero_title
+            widget: string
 
-          - label: "Hero Description"
-            name: "hero_description"
-            widget: "text"
-            required: false
+          - label: Hero Description
+            name: hero_description
+            widget: text
 
-          - label: "Hero Button Text"
-            name: "hero_button_text"
-            widget: "string"
-            required: false
+          - label: Hero Button Text
+            name: hero_button_text
+            widget: string
